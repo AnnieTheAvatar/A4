@@ -1,0 +1,183 @@
+@font-face {
+  font-family: Rokkit;
+  src: url(Rokkitt-VariableFont_wght.ttf);
+}
+
+@font-face {
+  font-family: Quicksand;
+  src: url(Quicksand-VariableFont_wght.ttf);
+}
+
+body {
+  background-color: #fff4ed;
+  font-family: Quicksand, Helvetica, sans-serif;
+  color: #44314f;
+}
+
+h1, h2 {
+  font-family: Rokkit, Georgia, serif;
+  font-size: 150%;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial;
+  padding: 10px;
+  background: #fff4ed;
+}
+
+/* Header/Blog Title */
+
+.headerhome {
+  padding: 30px;
+  text-align: center;
+  background: #f9a62d;
+}
+
+.header {
+  padding: 0px;
+  text-align: left;
+  background: #f9a62d;
+}
+
+.headimgl {
+  float: left;
+  width: 150px;
+  padding: 10px;
+}
+
+.headimg {
+  float: left;
+  width: 90px;
+  padding: 5px;
+}
+
+.header h1 {
+  font-size: 30px;
+}
+
+.headerhome h1 {
+  font-size: 50px;
+}
+
+/* Style the top navigation bar */
+.topnav {
+  overflow: hidden;
+  background-color: #f9a62d;
+}
+
+/* Style the topnav links */
+.topnav a {
+  float: left;
+  display: block;
+  color: #44314f;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+/* Change color on hover */
+.topnav a:hover {
+  background-color: #f9dc4e;
+  color: #44314f;
+}
+
+.topnav a.active {
+  text-decoration: underline;
+  color: #44314f;
+}
+
+/* Create two unequal columns that floats next to each other */
+/* Left column */
+.leftcolumn {   
+  float: left;
+  width: 50%;
+}
+
+/* Right column */
+.rightcolumn {
+  float: left;
+  width: 50%;
+  padding-left: 20px;
+}
+
+/* Fake image */
+.fakeimg {
+  background-color: #aaa;
+  width: 100%;
+  padding: 20px;
+}
+
+/* Add a card effect for articles */
+.card {
+  background-color: white;
+  padding: 20px;
+  margin-top: 20px;
+  border-radius: 10px;
+  box-shadow: 2px 5px 10px #ff75c1;
+}
+
+.tran {
+  background-color: transparent;
+  box-shadow: none;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Footer */
+.footer {
+  padding: 20px;
+  text-align: center;
+  background: #f9a62d;
+  margin-top: 20px;
+}
+
+/* Responsive layout - when the screen is less than 800px wide, make the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 800px) {
+  .leftcolumn, .rightcolumn {   
+    width: 100%;
+    padding: 0;
+  }
+}
+
+/* Responsive layout - when the screen is less than 400px wide, make the navigation links stack on top of each other instead of next to each other */
+@media screen and (max-width: 400px) {
+  .topnav a {
+    float: none;
+    width: 100%;
+  }
+}
+
+/* Buttons */
+button {
+  background-color:#fff4ed;
+  border: none;
+  border-radius: 10px;
+  padding: 20px 40px;
+  box-shadow: 0 8px 16px 0 #f9a62d;
+  color: #44314f;
+  width: 100%;
+}
+
+button:hover {
+  color: #ff75c1;
+}
+
+button:active {
+  transform: translateY(4px);
+  border: none;
+  color: #f9a62d;
+}
+
+.disabled {
+  opacity: 0.6;
+  cursor: not-allowed;
+}
