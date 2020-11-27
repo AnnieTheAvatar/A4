@@ -1,60 +1,161 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width">
-    <title>Brighter Future Cat Rescue</title>
-    <link href="style.css" rel="stylesheet" type="text/css" />
-    <link rel="shortcut icon" href="images/favicon.ico"/>
-  </head>
-  <body>
-    <script src="script.js"></script>
-    <section class="headerhome">
-      <img class="headimgl" src="images/bfcr.png" alt="brighter future cat rescue logo">
-      <h1>Brighter Future Cat Rescue</h1>
-    </section>
 
-    <section class="topnav">
-      <a class="active" href="#">Home</a>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width">
+	<title>Brighter Future Cat Rescue</title>
+	<link href="style.css" rel="stylesheet" type="text/css" />
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<link rel="shortcut icon" href="images/favicon.ico" />
+</head>
+
+<body>
+	<script src="script.js"></script>
+  <div class="navbar" id="myNavbar">
+      <a class="active" href="index.html">Home</a>
       <a href="about.html">About</a>
       <a href="blog.html">Blog</a>
-      <a href="adopt.html">Adopt</a>
+      <a href="donate.html">Donate</a>
+      <a href="contact.html">Contact</a>    
+  <a href="javascript:void(0);" style="font-size:15px;" class="icon" onclick="myFunction()">&#9776;</a>
+</div>
+    <table class="header" width="100%">
+      <tr>
+        <td>
+      <img class="headimg" src="images/bfcr.png" alt="brighter future cat rescue logo">
+      <a href="index.html"><h1>Brighter Future Cat Rescue</h1><a>
+        </td>
+        </tr>
+    </table>
+  <!--
+	<section class="header">
+		<img class="headimg" src="images/bfcr.png" alt="brighter future cat rescue logo">
+      <a href="index.html"><h1>Brighter Future Cat Rescue</h1><a>
+    </section>
+    <section class="topnav" id="myTopnav">
+      <a class="active" href="index.html">Home</a>
+      <a href="about.html">About</a>
+      <a href="blog.html">Blog</a>
       <a href="donate.html">Donate</a>
       <a href="contact.html">Contact</a>
-      <a href="oops.html" style="float:right">Cart</a>
+      <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+        <i class="fa fa-bars"></i>
+      </a>
     </section>
+ 
+    <table class="header" width="100%">
+      <tr><td>
+
+        </td><tr>
+    </table>
+    <br>
+    <section class="topnav" id="myTopnav" width="100%">
+      <a class="active" href="index.html">Home</a>
+      <a href="about.html">About</a>
+      <a href="blog.html">Blog</a>
+      <a href="donate.html">Donate</a>
+      <a href="contact.html">Contact</a>
+      <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+        <i class="fa fa-bars"></i>
+      </a>
+    </section>
+   -->
 
     <section class="row">
       <section class="leftcolumn">
         <section class="card">
           <h2>About Us</h2>
-          <section class="fakeimg" style="height:200px;">Image</section>
+          <img class="catimage" src="images/woman.jpg" alt="Woman holding cat">
           <p>Brighter Future Cat Rescue is a Western Sydney based rescue organisation run by a dedicated family and amazing feline loving foster carers who always put the health and well-being of the rescued cats first.</p>
-        </section>
-        <section class="card">
-          <h2>Blog</h2>
-          <section class="fakeimg" style="height:200px;">Image</section>
-          <p>Sunt in culpa qui officia deserunt mollit anim id est laborum consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco.</p>
+          <button><a href="about.html">Learn More</a></button>
         </section>
       </section>
       <section class="rightcolumn">
-        <section class="card tran">
-          <img src="images/home image.png" width=300 alt="illustration of girl holding cat">
-        </section>
         <section class="card">
-          <h2>Adopt</h2>
-          <section class="fakeimg"><p>Image</p></section>
-          <section class="fakeimg"><p>Image</p></section>
-          <section class="fakeimg"><p>Image</p></section>
+          <h2>Blog</h2>
+          <p>Keep up to date with all the latest news about BFCR. We love telling you about the cats in our care, giving advice to new cat owners or hearing from people within the community. If you'd like to post a blog entry please message us on our <a href="contact.html">Contact Page</a>.</p>
+          <ul>
+            <h3>Recent Posts</h3>
+            <li><a href="#">Loud Kittens</a> - (20/11/2020)</li>
+            <li><a href="#">Welcome Whiskers</a> - (10/11/2020)</li>
+            <h3>Popular Posts</h3>
+            <li><a href="#">Loud Kitten</a> - (20/11/2020)</li>
+            <li><a href="#">Welcome Whiskers</a> - (10/11/2020)</li>
+          </ul>
+          <button><a href="blog.html">Visit the Blog</a></button>
         </section>
-        <section class="card tran">
-          <button>Donate</button>
-        </section>
+        <img class="bgcat" src="images/sillhouettte.png" alt="illustration of a cat">
       </section>
+
     </section>
 
+    <section class="row">
+      <table class="card">
+        <tr><td>
+        <h2>Cats Available for Adoption</h2>
+        <p>The core of BFCR is ensuring that all cats are given a loving and safe home. We ensure that the cat is right for the home by getting to know the cat's personality and their future home environment. All cats are indoor cats, or require babysitting when outside in an enclosed space. Below are a few of our cats available for adoption, you can view all available cats at <a href="https://www.petrescue.com.au/groups/10873/Brighter-future-cat-rescue" target="_blank">PetRescue.com</a></p>
+        <section class="testimonials">
+          <section class="card">
+            <img src="images/jae-park-7GX5aICb5i4-unsplash.jpg" class="catimage"></img>
+                <br>
+                <h2 class="center"><a>Abbi</a></h2>
+                <p>Abbi is a friendly girl.</p>
+                <ul class="cat">
+                  <li>1 year old</li>
+                  <li>Female</li>
+                  <li>Sydney</li>
+                  <li>Microchipped</li>
+                  <li>Desexed</li>
+                </ul>
+          </section>
+        </section>
+        <section class="testimonials">
+          <section class="card">
+            <img src="images/whisker.jpg"class="catimage"></img>
+                <br>
+                <h2 class="center"><a>Whiskers</a></h2>
+                <p>Whiskers is a new girl.</p>
+                <ul class="cat">
+                  <li>4 months old</li>
+                  <li>Female</li>
+                  <li>Sydney</li>
+                  <li>Microchipped</li>
+                  <li>Desexed</li>
+                </ul>
+          </section>
+        </section>
+        <section class="testimonials">
+          <section class="card">
+            <img src="images/ginger.jpg"class="catimage"></img>
+                <br>
+                <h2 class="center"><a>George</a></h2>
+                <p>George is a friendly boy.</p>
+                <ul class="cat">
+                  <li>2 years old</li>
+                  <li>Male</li>
+                  <li>Sydney</li>
+                  <li>Microchipped</li>
+                  <li>Desexed</li>
+                </ul>
+          </section>
+        </section>
+        </td></tr>
+        <tr><td colspan="3"><button><a href="https://www.petrescue.com.au/groups/10873/Brighter-future-cat-rescue" target="_blank">Find more cats at PetRescue.com</a></button>
+        </td></tr>
+      </table>
+    </section>
+
+    
     <section class="footer">
-      <h2>Footer</h2>
+        <table width="30%">
+          <tr>
+            <td><a class="fa fa-facebook-square inline" style="font-size:20px;color:#44314f" href="https://www.facebook.com/BrighterFutureCatRescue/" target="_blank"></a></td>
+            <td><a class="fa fa-instagram inline" style="font-size:20px;color:#44314f" href="https://www.instagram.com/brighterfuturecatrescue/" target="_blank"></a></td>
+            <td><a class="fa fa-envelope inline" style="font-size:20px;color:#44314f" href="mailto:brighterfuturecatrescue@yahoo.com" target="_blank"></a></td>
+          </tr>
+        </table>
+      <p>&#169; 2020 Brighter Future Cat Rescue. Designed by Annie Lacoba : 490627301</p>
     </section>
   </body>
 </html>

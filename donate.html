@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>Brighter Future Cat Rescue - About</title>
+    <link href="style.css" rel="stylesheet" type="text/css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="shortcut icon" href="images/favicon.ico"/>
+  </head>
+  <body>
+	<script src="script.js"></script>
+  <div class="navbar" id="myNavbar">
+      <a  href="index.html">Home</a>
+      <a href="about.html">About</a>
+      <a href="blog.html">Blog</a>
+      <a class="active" href="donate.html">Donate</a>
+      <a href="contact.html">Contact</a>    
+  <a href="javascript:void(0);" style="font-size:15px;" class="icon" onclick="myFunction()">&#9776;</a>
+</div>
+    <table class="header" width="100%">
+      <tr>
+        <td>
+      <img class="headimg" src="images/bfcr.png" alt="brighter future cat rescue logo">
+      <a href="index.html"><h1>Brighter Future Cat Rescue</h1><a>
+        </td>
+        </tr>
+    </table>
+
+    <section class="row">
+      <section class="middle">
+        <section class="card">
+          <h2>Donation Form</h2>
+          <p>Only 15% of our income is from adoption fees, to help make the adoption as cheap and easy to new pet owners as possible. All monetary donations go directly towards vetenary fees, food for the cats and medical bills. Your donations are greatly appreciated and will help taking care of the cats in our care.</p>
+          <table width="100%">
+          <form name="donateform" action="thanks.html" method="post">
+              <tr>
+                <td><label for="fname" >First Name:</label>
+            <input type="text" id="fname" name="fname" class="inline"></td>
+                <td><label for="lname" >Last Name:</label>
+            <input type="text" id="lname" name="lname" class="inline"></td>
+            <tr><td colspan=2><hr></td></tr>
+              </tr>
+              <tr>
+                <td ><label for="email">Email Address:</label>
+            <input type="email" id="email" name="email" class="inline"></td>
+                <td  ><label for="donate">Amount:</label></br>
+                <input placeholder="$00.00" type="number" id="donate" name="donate" class="inline>"<br></td>
+              </tr>
+              <tr><td colspan="2"><hr></td></tr>
+              <tr>
+                <td>
+                  <label for="card">Card Number:</label></br>
+                  <input type="number" id="card" name="card" class="inline>"<br>
+                </td>
+                <td>
+                  <label for="date">Expiry:</label></br>
+                  <input placeholder="mm/yy" type="number" id="date" name="date" class="inline>"<br>
+                </td>
+              </tr>
+                <td>
+                  <label for="cvv">CVV:</label></br>
+                  <input type="number" id="cvv" name="cvv" class="inline>"<br>
+                </td>
+                </td>
+              </tr>
+              <tr><td colspan=2><hr></td></tr>
+              <tr>
+                <td colspan=2>
+                  <label for="message">Message:</label><br>
+                  <textarea id="message" name="message" rows="5" cols="50"></textarea>
+                </td>
+              </tr>
+              <tr>
+                <td colspan=4><button><a href="#popup2">Submit</a></button><br></td>
+              </tr>
+           
+          </form>
+           </table>
+        </section>
+      </section>
+    </section>
+    <div id="popup2" class="overlay">
+      <div class="popup">
+        <h2>Thank You</h2>
+        <a class="close" href="#">&times;</a>
+          <p>Thank you so much for donating, we really appreciate it. You will receive an email shortly with your receipt and tax information.</p>
+      </div>
+    </div>
+    <section class="row">
+      <section class="leftcolumn">
+        <section class="card">
+          <h2>Other ways to donate</h2>
+          <table width="100%">
+            <tr>
+              <td width="20%"><a class="fa fa-paypal" style="font-size:48px;color:#44314f" href="https://www.paypal.com/paypalme/brighterfuturecat" target="_blank"></a></td>
+              <td><a href="https://www.paypal.com/paypalme/brighterfuturecat" target="_blank">Paypal</a></td>
+            </tr>
+            <tr>
+              <td><a class="fa fa-bank" style="font-size:48px;color:#44314f" href="#popup1"></a></td>
+              <td><a href="#popup1">Bank Details</a></td>
+            </tr>
+            <tr>
+              <td width="20%"><a class="fa fa-shopping-cart" style="font-size:48px;color:#44314f" href="https://www.brighterfuturecatrescue.com/shop" target="_blank"></a></td>
+              <td><a href="https://www.brighterfuturecatrescue.com/shop" target="_blank">Shop</a></td>
+            </tr>
+          </table>
+        </section>
+      </section>
+      <section class="rightcolumn">
+        <img class="bodycatimage" src="images/cat1.jpg" alt="cute cat in blanket" width="50%">
+      </section>
+    </section>
+
+    <div id="popup1" class="overlay">
+      <div class="popup">
+        <h2>Bank Details</h2>
+        <a class="close" href="#">&times;</a>
+          <p>Bank: CBA</p>
+          <p>BSB: 062 589</p>
+          <p>Account Number: 1102 3703</p>
+          <p>Account Name: Brighter Future Cat Rescue</p>
+      </div>
+    </div>
+
+    <section class="footer">
+      <table width="30%">
+          <tr>
+            <td><a class="fa fa-facebook-square inline" style="font-size:20px;color:#44314f" href="https://www.facebook.com/BrighterFutureCatRescue/" target="_blank"></a></td>
+            <td><a class="fa fa-instagram inline" style="font-size:20px;color:#44314f" href="https://www.instagram.com/brighterfuturecatrescue/" target="_blank"></a></td>
+            <td><a class="fa fa-envelope inline" style="font-size:20px;color:#44314f" href="mailto:brighterfuturecatrescue@yahoo.com" target="_blank"></a></td>
+          </tr>
+        </table>
+      <p>&#169; 2020 Brighter Future Cat Rescue. Designed by Annie Lacoba : 490627301</p>
+    </section>
+  </body>
+</html>

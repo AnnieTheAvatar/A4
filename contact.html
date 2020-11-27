@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>Brighter Future Cat Rescue - About</title>
+    <link href="style.css" rel="stylesheet" type="text/css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="shortcut icon" href="images/favicon.ico"/>
+  </head>
+  <body>
+	<script src="script.js"></script>
+  <div class="navbar" id="myNavbar">
+      <a href="index.html">Home</a>
+      <a href="about.html">About</a>
+      <a href="blog.html">Blog</a>
+      <a href="donate.html">Donate</a>
+      <a class="active"  href="contact.html">Contact</a>    
+  <a href="javascript:void(0);" style="font-size:15px;" class="icon" onclick="myFunction()">&#9776;</a>
+</div>
+    <table class="header" width="100%">
+      <tr>
+        <td>
+      <img class="headimg" src="images/bfcr.png" alt="brighter future cat rescue logo">
+      <a href="index.html"><h1>Brighter Future Cat Rescue</h1><a>
+        </td>
+        </tr>
+    </table>
+
+    <section class="row">
+      <section class="middle">
+        <section class="card">
+          <h2>Contact Form</h2>
+          <p>We aim to respond to all enquiries within 2 business days. During busy periods this may take up to a week.</p>
+          <!--
+          <form name="contactform" action="contactsub.html" method="post">
+            <label for="fname" >First name:</label>
+            <input type="text" id="fname" name="fname" class="inline">
+            <label for="lname" >Last name:</label>
+            <input type="text" id="lname" name="lname" class="inline"><br>
+            <label for="email">Email Address:</label>
+            <input type="email" id="email" name="email" class="inline">
+            <label for="phone">Mobile Number:</label>
+            <input type="number" id="phone" name="phone" class="inline"><br>
+            <label for="reason">Reason for enquiry:</label><br>
+            <input list="reason">
+              <datalist id="reason">
+                <option value="Interested in adopting a cat">
+                <option value="Interested in becoming a foster carer">
+                <option value="Would like to know more about BFCR">
+                <option value="Interested in giving a cat up for adoption">
+                <option value="Other">
+              </datalist><br>
+            <label for="message">Message:</label><br>
+            <textarea id="message" name="message" rows="5" cols="50"></textarea><br>
+            <input type="submit" id="submit" name="submit" formtarget="contactsub.html"><br>
+          </form>
+          -->
+          <form name="contactform" action="#popup1" method="post">
+            <table width="100%">
+              <tr>
+                <td><label for="fname" >First name:</label>
+            <input type="text" id="fname" name="fname" class="inline"></td>
+                <td><label for="lname" >Last name:</label>
+            <input type="text" id="lname" name="lname" class="inline"></td>
+              </tr>
+              <tr>
+                <td><label for="email">Email Address:</label>
+            <input type="email" id="email" name="email" class="inline"></td>
+                <td><label for="phone">Mobile Number:</label>
+            <input type="number" id="phone" name="phone" class="inline"><br></td>
+              </tr>
+              <tr>
+                <td colspan=2><label for="reason" class="center">Reason for enquiry:</label><br>
+                <select name="reason" class="field-select">
+                  <option value="blog">Interested in posting a blog entry</option>
+                    <option value="cat">Interested in adopting a cat</option>
+                    <option value="foster">Interested in becoming a foster carer</option>
+                    <option value="info">Would like to know more about BFCR</option>
+                    <option value="adopt">Interested in giving a cat up for adoption</option>
+                    <option value="other">Other</option>
+                </select> 
+                </td>
+              </tr>
+              <tr>
+                <td colspan=2>
+                  <label for="message">Message:</label><br>
+                  <textarea id="message" name="message" rows="5" cols="50"></textarea>
+                </td>
+              </tr>
+              <tr>
+                <td colspan=2><button><a href="#popup1">Send</a></button><br></td>
+              </tr>
+            </table>
+          </form>
+
+        </section>
+      </section>
+    </section>
+    <div id="popup1" class="overlay">
+      <div class="popup">
+        <h2>Your Message has been Submitted!</h2>
+        <a class="close" href="#">&times;</a>
+          <p>Thanks for reaching out!</p>
+      </div>
+    </div>
+    <section class="row">
+      <section class="leftcolumn">
+        <section class="card">
+          <h2>Other ways to get touch</h2>
+          <table width="100%">
+            <tr>
+              <td><a class="fa fa-facebook-square" style="font-size:48px;color:#44314f" href="https://www.facebook.com/BrighterFutureCatRescue/" target="_blank"></a></td>
+              <td><a href="https://www.facebook.com/BrighterFutureCatRescue/" target="_blank">/BrighterFutureCatRescue</a></td>
+            </tr>
+            <tr>
+              <td><a class="fa fa-instagram" style="font-size:48px;color:#44314f" href="https://www.instagram.com/brighterfuturecatrescue/" target="_blank"></a></td>
+              <td><a href="https://www.instagram.com/brighterfuturecatrescue/" target="_blank">@BrighterFutureCatRescue</a></td>
+            </tr>
+            <tr>
+              <td><a class="fa fa-envelope" style="font-size:46px;color:#44314f" href="mailto:brighterfuturecatrescue@yahoo.com" target="_blank"></a></td>
+              <td><a href="mailto:brighterfuturecatrescue@yahoo.com" target="_blank">brighterfuturecatrescue@yahoo.com</a></td>
+            </tr>
+          </table>
+        </section>
+      </section>
+      <section class="rightcolumn">
+        <img class="bodycatimage" src="images/cat2.jpg" alt="cute cat getting pet" width="50%">
+      </section>
+    </section>
+
+    <section class="footer">
+      <table width="30%">
+          <tr>
+            <td><a class="fa fa-facebook-square inline" style="font-size:20px;color:#44314f" href="https://www.facebook.com/BrighterFutureCatRescue/" target="_blank"></a></td>
+            <td><a class="fa fa-instagram inline" style="font-size:20px;color:#44314f" href="https://www.instagram.com/brighterfuturecatrescue/" target="_blank"></a></td>
+            <td><a class="fa fa-envelope inline" style="font-size:20px;color:#44314f" href="mailto:brighterfuturecatrescue@yahoo.com" target="_blank"></a></td>
+          </tr>
+        </table>
+      <p>&#169; 2020 Brighter Future Cat Rescue. Designed by Annie Lacoba : 490627301</p>
+    </section>
+  </body>
+</html>
