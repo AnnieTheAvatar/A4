@@ -32,41 +32,39 @@
         <section class="card">
           <h2>Donation Form</h2>
           <p>Only 15% of our income is from adoption fees, to help make the adoption as cheap and easy to new pet owners as possible. All monetary donations go directly towards vetenary fees, food for the cats and medical bills. Your donations are greatly appreciated and will help taking care of the cats in our care.</p>
-          <table width="100%">
+          <table class="form" width="100%">
           <form name="donateform" action="thanks.html" method="post">
               <tr>
-                <td><label for="fname" >First Name:</label>
+                <td colspan=2><label for="fname" >First Name:</label>
             <input type="text" id="fname" name="fname" class="inline"></td>
-                <td><label for="lname" >Last Name:</label>
+                <td colspan=2><label for="lname" >Last Name:</label>
             <input type="text" id="lname" name="lname" class="inline"></td>
-            <tr><td colspan=2><hr></td></tr>
+            <tr><td colspan=4><hr></td></tr>
               </tr>
               <tr>
-                <td ><label for="email">Email Address:</label>
+                <td colspan=2><label for="email">Email Address:</label>
             <input type="email" id="email" name="email" class="inline"></td>
-                <td  ><label for="donate">Amount:</label></br>
+                <td colspan=2><label for="donate">Amount:</label></br>
                 <input placeholder="$00.00" type="number" id="donate" name="donate" class="inline>"<br></td>
               </tr>
-              <tr><td colspan="2"><hr></td></tr>
+              <tr><td colspan=4><hr></td></tr>
               <tr>
-                <td>
+                <td colspan=2>
                   <label for="card">Card Number:</label></br>
                   <input type="number" id="card" name="card" class="inline>"<br>
                 </td>
-                <td>
+                <td colspan=1>
                   <label for="date">Expiry:</label></br>
                   <input placeholder="mm/yy" type="number" id="date" name="date" class="inline>"<br>
                 </td>
-              </tr>
-                <td>
+                <td colspan=1>
                   <label for="cvv">CVV:</label></br>
                   <input type="number" id="cvv" name="cvv" class="inline>"<br>
                 </td>
-                </td>
               </tr>
-              <tr><td colspan=2><hr></td></tr>
+              <tr><td colspan=4><hr></td></tr>
               <tr>
-                <td colspan=2>
+                <td colspan=4>
                   <label for="message">Message:</label><br>
                   <textarea id="message" name="message" rows="5" cols="50"></textarea>
                 </td>
@@ -91,7 +89,7 @@
       <section class="leftcolumn">
         <section class="card">
           <h2>Other ways to donate</h2>
-          <table width="100%">
+          <table class="nobreak" width="100%">
             <tr>
               <td width="20%"><a class="fa fa-paypal" style="font-size:48px;color:#44314f" href="https://www.paypal.com/paypalme/brighterfuturecat" target="_blank"></a></td>
               <td><a href="https://www.paypal.com/paypalme/brighterfuturecat" target="_blank">Paypal</a></td>
