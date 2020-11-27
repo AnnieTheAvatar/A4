@@ -17,14 +17,10 @@ body {
 
 h1, h2 {
   font-family: Rokkit, Georgia, serif;
-}
-
-h1 {
   font-size: 190%;
 }
 
 h2 {
-  font-size: 190%;
   margin: 10px 10px 20px 00px;
 }
 
@@ -601,8 +597,11 @@ img {
   td {
     display: table-row;
   }
-  .footer td, .nobreak td{
+  .footer td, .nobreak td, .blogfooter td{
     display:table-cell;
+  }
+  .blogtab {
+    border-spacing: 0px;
   }
   .bgcat3 {
     width: 90px;
