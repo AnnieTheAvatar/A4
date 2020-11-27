@@ -50,29 +50,6 @@ body {
 
 /* Header */
 
-nav {
-  padding-left: 0;
-  margin-bottom: 0;
-  list-style: none;
-  float:right;
-  display:inline;
-  background: #f9a62d;
-  width:100%;
-}
-
-nav  li {
-    position:relative;
-    display:inline-block;
-    list-style-type: none;
-    color: #222;
-    padding:0 1rem;
-}
-nav li > a {
-    position: relative;
-    display: block;
-    padding: 10px 15px;
-}
-
 .headimg {
   box-shadow: none;
   float: left;
@@ -330,7 +307,6 @@ hr {
 }
 
 ul, li {
-  list-style-type: none;
   padding-left: 0%;
   margin-left: 20px;
   list-style-type: disc;
